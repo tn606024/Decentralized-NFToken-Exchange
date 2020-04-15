@@ -1,0 +1,13 @@
+{
+    "ropsten":{
+        "privateKeys":[
+            "",
+            ""
+        ],
+        "infuraKey":"",
+        "addresses":[
+            "",
+            ""
+        ]
+    }
+}

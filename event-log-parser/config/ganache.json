@@ -1,0 +1,31 @@
+{
+    "Exchange": {
+        "address": "0xAa333E5a4AC972c6b8b39843d43A429930CFBE53",
+        "initialBlock": 6
+    },
+    "NFToken":{
+        "address": "0x51a7C396468c8cB8f097Db3Cb17B19FeF39a8700",
+        "initialBlock": 6
+    },
+    "NFToken2":{
+        "address": "0x57B596aa1199fFA74816a5e7d016E5f787A9Aa4e",
+        "initialBlock": 6
+    },
+    "Parser": {
+        "provider": "http://127.0.0.1:8545",
+        "breakTime": 1000,
+        "waitBlock": 0
+    },
+    "OrderObj": {
+        "collection": "OrderObjTest"
+    },
+    "EventStatus": {
+        "collection": "EventStatusTest"
+    },
+    "TokenHistory": {
+        "collection": "TokenHistoryTest"
+    },
+    "ExchangeTokenHistory": {
+        "collection": "ExchangeTokenHistoryTest"
+    }
+}

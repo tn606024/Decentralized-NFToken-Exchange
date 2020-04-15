@@ -1,0 +1,25 @@
+{
+  "name": "erc721-exchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tn606024/erc721-exchange.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tn606024/erc721-exchange/issues"
+  },
+  "homepage": "https://github.com/tn606024/erc721-exchange#readme",
+  "dependencies": {
+    "config": "^3.1.0"
+  }
+}

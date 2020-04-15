@@ -1,0 +1,627 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+
+.baloo {
+  font-family: 'Baloo Bhai', cursive;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.opensans
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.opensans-light
+{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: .03em;
+}
+
+.opensans-semi-bold
+{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: .03em;
+}
+
+.oi-person{
+    font-size: 28px;
+}
+
+.card-columns {
+  column-count: auto;
+}
+
+.imp-button {
+  background-color: #3c92f7;
+  color:#FFFFFF;
+  border-radius: 9px;
+  letter-spacing: .7px;
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+}
+
+.imp-button:hover{
+  transition: .2s;
+  background-color: #90b7ff;
+}
+
+.less-button {
+  background-color:rgba(49, 150, 255, 0.7);
+  color:#FFFFFF;
+  border-radius: 9px;
+  letter-spacing: .02em;
+}
+
+.faucet-button {
+    background-color:rgba(49, 150, 255, 1);
+    color:#FFFFFF;
+    border-radius: 30px;
+    letter-spacing: .05em;
+    padding: 13px 23px;
+}
+
+.title-style {
+  font-size: 40px
+}
+
+.btn:hover {
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+.active-link {
+  color:#FFFFFF;
+}
+
+.non-active-link {
+  color:#A4A4A4;
+}
+
+.receive-button {
+  background-color: rgba(24, 90, 246, 0.7);
+}
+
+.receive-button:hover{
+  background-color: rgba(24, 90, 246, 1.0);
+}
+
+.token-link {
+  color: rgba(24, 90, 246, 1.0);
+
+}
+
+.token-link:hover{
+  color: rgba(24, 90, 246, 0.7);
+}
+
+
+
+.dropdown {
+     position: relative;
+     display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 2.4rem;
+    right: 0;
+    background-color:#FFFFFF;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.bottem-line-grey {
+  border-bottom: 1px solid #e1e1e1 ;
+}
+
+.table{
+
+}
+
+.table .div{
+  height: 50px;
+}
+
+.short-div{
+  height: 25px;
+}
+
+.token-text{
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  color: #2f2f2f;  
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.token-name{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  font-size: 30px;
+  color: rgb(255, 62, 117);
+}
+
+.token-description{
+  font-size: 25px;
+
+}
+
+.header-text{
+  font-family: 'Open Sans', sans-serif;
+  color:#2f2f2f;
+
+}
+
+.mr-5rem {
+  margin-right: 5rem
+}
+
+.ml-5rem {
+    margin-left: 5rem
+}
+
+.bg-container{
+  height: 100%;
+  width: 100%;
+}
+
+.bg {
+   /* The image used */
+  background-image: url("../resource/index_2x.png");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+
+.bg-cloud1 {
+  /* The image used */
+  background-image: url("../resource/cloud01.png");
+
+  /* Full height */
+  height: 50%;
+  width: 80%;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position:left top;
+
+}
+
+.bg-cloud2 {
+    /* The image used */
+  background-image: url("../resource/cloud02.png");
+
+  /* Full height */
+  height: 50%;
+  width: 60%;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: 40% 50%;
+  background-position:right bottom;
+
+}
+
+html, body, #root, #root>div {
+  height: 100% !important;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.welcome-title{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2.2px;
+  color: #2f2f2f;
+}
+
+.welcome-p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.8px;
+  color: #4d4d4d;
+}
+
+.user-row {
+  box-shadow: 0 0 15px 0 rgba(214, 214, 214, 0.5);
+  background-color: #fefefe;
+}
+
+.hi-user {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  color: #2f2f2f;
+}
+
+.address {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .7rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: #1d85ff;
+}
+
+.ownby-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #7f7f7f;
+}
+
+.token-owner-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: #2f2f2f;
+
+}
+
+.order-title-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  color: #333333;
+  text-align: left;
+}
+
+.order-nav-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #3c92f7;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.order-content-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  color: #2f2f2f;
+  text-align: left;
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.change-button{
+  border-radius: 11px;
+  background-color: rgb(255, 62, 117);
+  font-size: 0.9rem;
+  letter-spacing: 1.3px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color:  #ffffff;
+}
+
+.change-button:hover{
+  transition: .2s;
+  background-color: rgba(255,62,117,0.6);
+
+}
+
+.info-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  color: #ee7298;
+}
+
+.card-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+
+.nav-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  color: #2f2f2f;
+}
+
+.nav-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: #1d85ff;
+}
+
+.marketplace-input{
+  border-radius: 9px;
+  box-shadow: 0 2px 10px 0 rgba(238, 238, 238, 0.5);
+  border: solid 1px #bababa;
+  background-color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.go-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  color: #2f2f2f;
+}
+
+.marketplace-nav{
+  box-shadow: 0 0 15px 0 rgba(214, 214, 214, 0.5);
+  background-color: #fefefe;
+}
+
+.nftoken-length-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #ff3e75;
+}
+
+.select-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  color: #2f2f2f;
+}
+
+.history-bar{
+  box-shadow: 0 0 15px 0 rgba(214, 214, 214, 0.5);
+  background-color: #fefefe;
+}
+
+.history-bar-title-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  color: #2f2f2f;
+}
+
+.history-bar-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: #1d85ff;
+}
+
+.history-detail-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  color: #1d85ff;
+  text-align: right;
+}
+
+.free-token-title-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3.3px;
+  color: #ff3e75;
+}
+
+.bg-free-token{
+  background-image: url("../resource/freeTokenScene.png");
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.back-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  color: #2f2f2f;
+}
+
+.go-button{
+  cursor: pointer;
+}
+
+.go-button:hover div{
+  border-bottom: solid 2px #2f2f2f;
+}
+
+.nav-link{
+  display: block;
+  padding: .5rem 0 .5rem 0;
+}
+
+.show-hand{
+  cursor: pointer;
+}
+
+.mx-4rem{
+  margin-left: 4rem !important;
+  margin-right: 4rem !important;
+}
+
+.mt-4rem{
+  margin-top: 4rem !important;
+}
+
+.hash-hint-text{
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.8px;
+  color: #888888;
+}
+
+.hash-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #ff3e75;
+}
+
+.mined-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  color: #2f2f2f;
+}
+
+html {
+    overflow: -moz-hidden-unscrollable;
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    height: 100%;
+	width: calc(100vw + 18px);
+	overflow: auto;
+}
+
+.mx-25rem{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.change-title-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  color: #2f2f2f;
+}
+
+.send-back-text{
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #9a9a9a;
+}

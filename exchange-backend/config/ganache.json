@@ -1,0 +1,27 @@
+{
+    "Mongo": {
+        "location": "mongodb://localhost:27017"
+    },
+    "OrderObj": {
+        "collection": "OrderObjTest"
+    },
+    "Contract": {
+        "collection": "ContractTest"
+    },
+    "TokenHistory": {
+        "collection": "TokenHistoryTest"
+    },
+    "ExchangeTokenHistory": {
+        "collection": "ExchangeTokenHistoryTest"
+    },
+    "NFT":[
+        {
+            "name":"NFToken",
+            "address":"0x51a7C396468c8cB8f097Db3Cb17B19FeF39a8700"
+        },
+        {
+            "name": "NFToken2",
+            "address": "0x57B596aa1199fFA74816a5e7d016E5f787A9Aa4e"
+        }    
+    ]
+}

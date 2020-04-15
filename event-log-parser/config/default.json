@@ -1,0 +1,34 @@
+{
+    "Exchange":{
+        "address":"0xe8995D80361794262B5eD2E08fEA06f2a1FE48f7",
+        "initialBlock":5730636
+    },
+    "NFToken": {
+        "address": "0x6d82Ead6d066DF929C00b9136B7278e652ab66f3",
+        "initialBlock": 5441170
+    },
+    "NFToken2": {
+        "address": "0xb476f49C6ea0D7f37Bb343A2513b4410F7482a82",
+        "initialBlock": 5441178
+    },
+    "Parser":{
+        "provider":"",
+        "breakTime":2000,
+        "waitBlock":2
+    },
+    "OrderObj":{
+        "collection":"OrderObj"
+    },
+    "EventStatus":{
+        "collection":"EventStatus"
+    },
+    "TokenHistory":{
+        "collection":"TokenHistory"
+    },
+    "ExchangeTokenHistory":{
+        "collection":"ExchangeTokenHistory"
+    },
+    "Mongo": {
+        "location": "mongodb://localhost:27017"
+    }
+}
